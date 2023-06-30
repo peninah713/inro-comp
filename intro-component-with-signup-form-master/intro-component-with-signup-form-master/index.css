@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 100%, 74%);
+  text-align: center;
+  font-size: 17px;
+  background-image: url(./images/bg-intro-mobile.png);
+}
+
+#header {
+  padding: 80px 15px 20px 15px;
+}
+
+h1 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+p {
+  color: hsla(0, 20%, 97%, 0.9);
+}
+
+#body .btn {
+  background-color: hsl(248, 32%, 49%);
+  padding: 20px 130px;
+  border-radius: 10px;
+  margin: 35px auto 25px;
+  border: none;
+  color: white;
+  font-size: 15px;
+}
+
+.formm {
+  background-color: white;
+  padding: 20px 20px;
+  border-radius: 10px;
+  margin: 0 40px 45px 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.butn {
+  padding: 15px 100px;
+  border-radius: 8px;
+  background-color: hsl(154, 59%, 51%);
+  margin: 20px auto;
+  color: white;
+  border: none;
+  font-size: 18px;
+}
+
+input {
+  padding: 15px;
+  font-weight: 600;
+  border-style: solid;
+  border-color: hsla(0, 1%, 36%, 0.3);
+  border-radius: 5px;
+}
+
+h5 {
+  color: hsla(0, 1%, 36%, 0.3);
+}
+
+span {
+  color: hsl(0, 100%, 74%);
+
+}
+
+@media (min-width:1024px) {
+  .all {
+    display: flex;
+    margin: 40px;
+  }
+
+  #header {
+    margin: auto;
+    padding: 0 30px;
+    text-align: left;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  p,
+  h5 {
+    font-size: 20px;
+  }
+
+  #body {
+    margin: 10px 30px;
+  }
+
+  #body .btn {
+    padding: 10px;
+  }
+
+  .butn {
+    padding: 17px;
+  }
+
+  form {
+    margin: 20px 50px;
+
+  }
+
+  input {
+    padding: 20px 140px;
+  }
+}
